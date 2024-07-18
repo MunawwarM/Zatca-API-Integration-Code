@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace E_WayBill_And_Invoicing
+namespace Zatca_EInvoice
 {
     public partial class Form1 : Form
     {
@@ -22,7 +22,6 @@ namespace E_WayBill_And_Invoicing
 
         public void Form1_Load(object sender, EventArgs e)
         {
-
             this.reportViewer1.RefreshReport();
         }
 
